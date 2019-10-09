@@ -1,0 +1,65 @@
+body {
+    background-image: url(./v01-spiral-31.jpg);
+    background-size: 100%;
+    font-family: Work Sans,Open Sans,Helvetica,Arial,sans-serif!important;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .text-section {
+    left: 0;
+    /* background-color: #ccc; */
+  }
+  
+  /* Control the right side */
+  .play-section {
+    right: 0;
+    /* background-color: #444; */
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered-left {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .centered-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  /* .centered img {
+    width: 150px;
+    border-radius: 50%;
+  } */
+
+  h2 {
+    color: #9884fc;
+     size: 2em;
+  }
+
+  h3 {
+      color: rgb(140, 240, 157);
+      size: 1.5em;
+  }
+
+  p {
+      color: white;
+  }
